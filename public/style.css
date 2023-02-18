@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    gap: 12px;
+    padding: 20px 32px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    padding: 0 32px;
+}
+
+.container h1{
+    margin-bottom: 12px;
+}
+.container p {
+    margin-bottom: 12px;
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
